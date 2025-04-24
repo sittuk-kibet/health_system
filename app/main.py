@@ -14,3 +14,8 @@ app = FastAPI(title="Health Info System")
 # Register routers
 app.include_router(clients.router)
 app.include_router(programs.router)
+
+# Define a root endpoint
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Health Info System API!"}
