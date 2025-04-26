@@ -45,11 +45,7 @@ health_system/
 │   └── schemas/       # Pydantic models for request/response
 ├── tests/             # Test cases using pytest + TestClient
 ├── [requirements.txt](http://_vscodecontentref_/0)   # Project dependencies
-├── README.md          # You're reading it
-└── pytest.ini         # Pytest config (sets Python path)
-
-Here’s a filled-in version of your `README.md` file based on the provided details:
-
+├── README.md     
 ```markdown
 # 🏥 Health Information System API
 
