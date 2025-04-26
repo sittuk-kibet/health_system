@@ -46,14 +46,6 @@ health_system/
 ├── tests/             # Test cases using pytest + TestClient
 ├── [requirements.txt](http://_vscodecontentref_/0)   # Project dependencies
 ├── README.md     
-```markdown
-# 🏥 Health Information System API
-
-A simple health information system API built with **FastAPI** and **SQLite**, designed to allow healthcare providers (e.g., doctors) to manage clients and enroll them in various health programs such as **Malaria**, **HIV**, **TB**, etc.
-
-This project is part of an internship assessment, demonstrating REST API development, clean code architecture, and software engineering best practices.
-
----
 
 ## 📌 Features
 
